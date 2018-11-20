@@ -1,0 +1,28 @@
+.render-cont {
+    margin-top: 50px;
+}
+
+.inner-sq {
+    width: 25px;
+    height: 25px;
+    padding: 20px 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.inner-sqbdr {
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+.inner-sqbdr:nth-child(5n) {
+    border-right: 1px solid;
+}
+
+.inner-sqbdr:nth-last-child(1) {
+    border-right: 1px solid;
+}
+
+.inner-sqbdr-lastrow {
+    border-bottom: 1px solid;
+}
